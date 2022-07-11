@@ -1,0 +1,66 @@
+What is software testing?
+It identifies the correctness and quality of the application
+
+How many ways we can actually test?
+1)manual
+2)automation
+
+When do we fo for automation testing?
+-after manual testing in passed
+-when environment is stable
+-analyze out test suit and choose our automation tools
+
+What automation tools do we know about?
+-Selenium, Cucumber,TestNG, JUnit, Katalon, Studio, UFT/QTP
+
+Levels of testing:
+-Unit testing           (done by developers)
+-integration testing    (mostly done by QA)
+-acceptance testing     (done by clients & end users)
+-system testing         (done by development operations)
+
+Types of testing:
+-Functional testing
+-Non Functional testing:
+involves 2 types of testing
+1) performance testing:how good app will work in a severe load (done by preformance tester)
+2) security testing: making sure no-one can hack into your application or how easy it is to hack (done by security
+or penetration tester)
+
+What is Selenium:
+It is a set of tools which helps us automate web applications. It is mainly used to perform functional testing
+
+Selenium Components:
+Selenium IDE(integrated development environment)-
+Selenium Grid- Firefox plugin (kinda outdated)
+Selenium WebDriver -(widely used)
+Selenium RC - Remote Control
+
+What is Selenium WebDriver:
+Open source automation tool which allows us to perform actions on a web application
+It's an interface
+
+Advantages:
+-open source
+-works with different browsers & supports cross browsing testing
+-OS independent - ios,Windows,Linux
+-works w/ different programming languages ---java, javascript, ruby, python
+
+Disadvantages:
+-can't test desktop apps
+-no tech support
+-no built in reports
+-can't test images, videos & captions(manual test required)
+
+get() vs navigate()
+- navigate can go back, forward & refresh
+-get will wait for the page to fully load where as navigate will not
+-get will not keep history of the browser - navigate does
+
+close() vs quit()
+-close() closes the current tab
+-quit() closes the whole browser
+
+fullscreen() vs maximizing()
+-maximize will maximize the browser and you will still be able to see the control panel(back, forward, refresh)
+-fullscreen() will maximize the whole web page

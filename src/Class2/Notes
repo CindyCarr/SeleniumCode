@@ -1,0 +1,38 @@
+What is a WebElement?
+
+anything we see on the web page is considered to be a web element
+ex buttons, text boxes, checkboxes, etc
+
+HTML- Hyper Text Markup Language
+
+What is DOM
+Document Object Model- is the browsers internal view of the webpage - AKA Developers tools or dev tools
+Document----> a simple html document which represents the age we are inspecting
+Objecy---> any line in HTML is considered to be an Object
+Model-----> it is just a layout of the HTML
+
+Locator
+is an address or a position of a web element on the webpage
+is used to locate or identify web elements on the web page
+
+8 Locators:
+-ID
+-Name
+-TagName
+-xPath
+-LinkText
+-PartialLinkText
+-CssSelectors
+-ClassName
+
+Why do we need so many locators?
+-dev may not provide all the locators for all the elements
+-some locators may have duplicate values in different nodes
+-some locators may not be applicable for what we're looking for
+ex: linktext & partial linktext(they're only used for links or anchor tags
+
+"a" tag is also called an anchor tag
+
+if 2 or more elements have same attributes and attributes
+
+

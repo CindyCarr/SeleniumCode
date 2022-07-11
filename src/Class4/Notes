@@ -1,0 +1,52 @@
+CSS Selectors (Cascading Style Sheet)
+
+It is another way of locating elements on the web page
+
+Syntax:     tag name[attribute = 'attribute value']
+Ex:         input[value = 'LOGIN']
+
+CSS doesn't give us an opportunity to locate the elements by its text
+
+Shortcuts for CSS:
+
+Shortcut for the className ----> "."
+Syntax:     tag name.classNameValue
+Ex:         input.button
+
+Shortcut for ID -----> "#"
+Syntax:     tag name#ID
+Ex:         input#txtPassword
+
+contains() method in css:
+* symbol represents contains method
+Syntax:     tag name[attribute *= 'partial attribute value']
+Ex:         input[placeholder *= 'phone']
+
+starts-with method in css:
+^(Circumflex) symbol represents starts-with method
+Syntax:    tag name[attribute ^= 'starting attribute value']
+Ex:        input[aria-label ^=  'Pass']
+
+ends-with method in css:
+$ symbol represents ends-with method in css
+Syntax:     tag name[attribute $= 'starting attribute value']
+Ex:         a[href $=  'login']
+
+Xpath vs CSS
+
+-- CSS can't locate the elements by text whereas xpath can
+-- CSS has shortcuts
+-- Xpath doesn't have ends-with method
+-- CSS is faster than xpath in locating elements
+- CSS has more simple syntax than xpath
+
+Web Elements Commands:
+
+consists of several methods where we can perform an action to get the element state on the webpage
+isEnabled() --> boolean
+isDisplayed() --> boolean
+isSelected() --> boolean
+clear() --> void
+getText() --> String
+getAttribute() --> String
+submit --> void
